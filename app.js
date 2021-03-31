@@ -4,17 +4,10 @@ secretMessage.pop(); //remove the last string
 
 secretMessage.push('to', 'Program'); //add the words separate to the end of array
 
-// inlocuim 'easily' cu 'right' MANUAL
-secretMessage[7] = 'right';
+const x = secretMessage.indexOf('easily'); //find the index number for 'easily'
 
-/*
-// inlocuim 'easily' cu 'right' AUTOMAT
-for(let i=0; i<secretMessage.length; i++){
-    if (secretMessage[i] === 'easily') {
-        secretMessage[i] = 'right';
-    } 
-}
-*/
+secretMessage[x] = 'right'; //and replace with 'right'
+
 secretMessage.shift(); //remove the first string of the array
 
 secretMessage.unshift('Programming'); //add the string 'Programming' to the beginning of the array
