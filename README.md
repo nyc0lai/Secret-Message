@@ -2,5 +2,5 @@
 
 JS Exercise 2
 
-#Result of exercice
+# Result of exercice
 <img src="result.jpg">
