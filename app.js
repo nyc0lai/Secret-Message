@@ -14,4 +14,4 @@ secretMessage.unshift('Programming'); //add the string 'Programming' to the begi
 
 secretMessage.splice(6, 5, 'know'); //remove the strings 'get', 'right', 'the', 'first', 'time,', and replace them with the single string 'know'
 
-console.log(secretMessage.join()); //print the secret message as a sentence.
+console.log(secretMessage.join(' ')); //print the secret message as a sentence.
